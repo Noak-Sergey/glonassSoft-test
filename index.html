@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div contenteditable class="container">
+            <table id="tableOne">
+                <th>X</th>
+                <th>Y</th>       
+            </table>
+        </div>
+        <input type="button" value="Add" class="btnAdd" onclick="addRow('tableOne', ['',''])"/>
+    </div>
+    <div class="wrapper">
+        <div contenteditable class="container">
+            <table id="tableTwo">
+                <th>X</th>
+                <th>Y</th>        
+            </table>
+        </div>
+        <input type="button" value="Add" class="btnAdd" onclick="addRow('tableTwo', ['',''])"/>
+    </div>
+    <div class="wrapper">
+        <div contenteditable class="container">
+            <table id="tableThree">
+                <th>X</th>
+                <th>Y</th>
+            </table>
+        </div>
+        <input type="button" value="Calculate" class="btnCalc" onclick="calculate()"/>
+    </div>
+    <div class="graph"> 
+        <canvas width="500" height="500" id="canvas1" ></canvas>
+        <canvas width="500" height="500" id="canvas2" ></canvas>
+        <canvas width="500" height="500" id="canvas3" ></canvas>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

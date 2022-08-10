@@ -1,0 +1,39 @@
+.wrapper {
+    float: left;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnAdd {
+    width: 418px;
+}
+
+.btnCalc {
+    width: 360px;
+}
+
+.graph {
+    float: left;
+}
+
+#canvas1, #canvas2, #canvas3 {
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+#canvas3 {
+    margin-right: 0px;
+}
+
+#canvas1:hover, #canvas2:hover, #canvas3:hover {
+    width: 600px;
+    height: 600px;
+}
+
